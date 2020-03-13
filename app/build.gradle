@@ -21,7 +21,7 @@ android {
     defaultConfig {
 
         // The package-name (MUST be the same of AndroidManifest.xml)
-        applicationId "cl.ucn.disc.dsm.base"
+        applicationId "cl.ucn.disc.dsm.jpnews"
 
         // Min sdk version to run
         minSdkVersion 24
