@@ -11,12 +11,12 @@
  *   See the License for the specific language governing permissions and limitations under the License.
  */
 
-package cl.ucn.disc.dsm.thenews.activities;
+package cl.ucn.disc.dsm.jpnews.activities;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import cl.ucn.disc.dsm.thenews.R;
-import cl.ucn.disc.dsm.thenews.databinding.ActivityMainBinding;
+import cl.ucn.disc.dsm.jpnews.R;
+import cl.ucn.disc.dsm.jpnews.databinding.ActivityMainBinding;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
