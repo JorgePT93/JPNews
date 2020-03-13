@@ -21,8 +21,6 @@ import retrofit2.http.Query;
 
 /**
  * Interface de acceso a los endpoints the NewsApi.org
- *
- * @author Eduardo Alvarez S.
  */
 interface NewsApi {
 
