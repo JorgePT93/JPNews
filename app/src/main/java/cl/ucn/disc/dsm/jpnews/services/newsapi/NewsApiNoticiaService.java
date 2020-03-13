@@ -13,28 +13,19 @@
 
 package cl.ucn.disc.dsm.jpnews.services.newsapi;
 
-import cl.ucn.disc.dsm.jpnews.services.newsapi.NewsApi;
-import cl.ucn.disc.dsm.jpnews.services.newsapi.NewsApiResult;
-import cl.ucn.disc.dsm.jpnews.services.newsapi.Transformer;
+import cl.ucn.disc.dsm.jpnews.services.Transformer;
 import cl.ucn.disc.dsm.jpnews.model.Noticia;
 import cl.ucn.disc.dsm.jpnews.services.NoticiaService;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-import net.openhft.hashing.LongHashFunction;
 import okhttp3.OkHttpClient;
 import okhttp3.OkHttpClient.Builder;
 import okhttp3.logging.HttpLoggingInterceptor;
 import okhttp3.logging.HttpLoggingInterceptor.Level;
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.threeten.bp.ZonedDateTime;
-import org.threeten.bp.format.DateTimeParseException;
 import retrofit2.Call;
 import retrofit2.HttpException;
 import retrofit2.Response;
